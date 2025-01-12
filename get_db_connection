@@ -1,0 +1,14 @@
+from db import get_db_connection
+
+# Пример использования
+conn = get_db_connection()
+if conn:
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute("SELECT NOW()")
+            result = cursor.fetchone()
+            print(f"Текущее время в базе данных: {result[0]}")
+    except Exception as e:
+        print(f"Ошибка выполнения запроса: {e}")
+    finally:
+        conn.close()
