@@ -834,7 +834,7 @@ void main() {
       '.android/Flutter/src/main/AndroidManifest.xml',
       '.android/Flutter/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java',
       '.android/gradle.properties',
-      '.android/gradle/wrapper/gradle-wrapper.jar',
+      '.android/gradle/wrapper/grade-wrapper.jar',
       '.android/gradle/wrapper/gradle-wrapper.properties',
       '.android/gradlew',
       '.android/gradlew.bat',
